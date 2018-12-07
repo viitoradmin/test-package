@@ -1,0 +1,13 @@
+{
+    "name": "viitor/time-diff",
+    "description": "Time diff calculate the difference between two date & times",
+    "authors": [
+        {
+            "name": "sahil",
+            "email": "sahil.darji@iprojectlab.com"
+        }
+    ],
+    "require": {
+        "php": "^5.6.37"
+    }
+}
