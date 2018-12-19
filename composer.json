@@ -7,6 +7,22 @@
             "email": "sahil.darji@iprojectlab.com"
         }
     ],
+    "autoload": {
+        "classmap": [
+            "database"
+        ],
+        "psr-4": {
+            "App\\": "app/",
+            "Viitor\\TimeDiff\\": "packages/viitor/timeDiff/src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Viitor\\TimeDiff"
+            ]
+        }
+    },
     "require": {
         "php": ">=5.6.37"
     }
