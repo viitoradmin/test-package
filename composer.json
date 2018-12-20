@@ -13,13 +13,6 @@
             "Viitor\\TimeDiff\\": "packages/viitor/timeDiff/src/"
         }
     },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Viitor\\TimeDiff\\TimeDiffServiceProvider"
-            ]
-        }
-    },
     "require": {
         "php": ">=5.6.37"
     }
