@@ -1,6 +1,7 @@
 {
     "name": "viitor/time-diff",
     "description": "Time diff calculate the difference between two date & times",
+    "license": "MIT",
     "authors": [
         {
             "name": "sahil",
@@ -10,7 +11,15 @@
     "autoload": {
         "psr-4": {
             "App\\": "app/",
-            "Viitor\\TimeDiff\\": "packages/viitor/timeDiff/src/"
+            "Viitor\\TimeDiff\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Viitor\\TimeDiff\\TimeDiffServiceProvider"
+            ]
         }
     },
     "require": {
